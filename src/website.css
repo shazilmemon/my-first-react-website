@@ -1,0 +1,264 @@
+*{
+
+  margin: 0;
+  padding: 0;  
+}
+.container{
+    background-color: #151719;
+    min-height: 100vh;
+    
+    
+    
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar,img{
+
+    width: 110px;
+    padding-left: 50px;
+}
+.ul{
+        display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+    
+}
+.ul li{
+    margin: 10px;
+    padding-right: 50px;
+    
+}
+
+.firstmain{
+
+    text-align: center;
+    color: #ECEDED;
+    font-size: 30px;
+}
+.para1{
+
+    font-size: 60px;
+    font-weight: bold;
+}
+.para2{
+
+    font-size: 20px;
+    color: #666E75;
+}
+.firstmain2{
+
+    text-align: center;
+    color: #ECEDED;
+    padding-top: 80px;
+    font-size: 30px;
+}
+.para3{
+
+    font-size: 45px;
+    font-weight: bold;
+}
+.para4{
+
+    font-size: 20px;
+    color: #8196AE;
+}
+.head2{
+
+    text-align: center;
+    padding-top: 60px;
+    color: #ECEDED;
+    font-size: 50px;
+    font-weight: bold;
+}
+.imagesmain{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+    
+}
+.vertical{
+
+    text-align: center;
+    color: #ECEDED;
+    font-size: 50px;
+  position: relative;
+  z-index: -10px;
+  
+  
+  
+}
+.threeimg{
+
+     
+    display: flex;
+    justify-content: space-around;
+    z-index: 10px;  
+    position: relative;
+    bottom: 80px;  
+}
+.iconmain{
+
+    display: flex;
+    justify-content: space-around;
+}
+.mainicons{
+
+    text-align: center;
+    font-size: 60px;
+    color: #5658DD;
+}
+.icontext{
+
+    color: #7D8790;
+    font-size: 25px;
+    padding-top: 40px;
+}
+.innertext{
+
+    font-size: 30px;
+}
+.medical{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: #5658DD;
+}
+.medicaltext{
+     text-align: center;
+    color: #7D8790;
+    font-size: 25px;
+    padding-top: 40px;  
+}
+.innertext2{
+
+    font-size: 30px;
+}
+.middle{
+
+    text-align: center;
+    padding-top: 150px;
+}
+.middlehead{
+
+    font-size: 60px;
+    font-weight: bold; 
+    color: #ECEDED; 
+}
+.middlehead2{
+    font-size: 20px;
+    color: #666E75;  
+}
+.development{
+
+    font-size: 30px;
+    font-weight: bold; 
+    color: #ECEDED; 
+    padding-top: 90px;
+}
+.developmentpara{
+
+    font-size: 25px;
+    color: #96A3AC;  
+
+}
+.control{
+
+    padding-top: 30px;
+    
+}
+.flexmain{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.fleximage{
+
+    width: 500px;
+    padding-top: 100px;
+}
+.fleximage2{
+
+    width: 500px; 
+    padding-top: 100px;
+}
+.flexmain2{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.developmentpara2{
+
+    font-size: 25px;
+    color: #96A3AC; 
+}
+@media screen and (min-width: 320px){
+.iconmain{
+
+    
+
+}
+.medicalmain{
+    display: flex;
+    flex-direction: column;
+
+}
+.para3{
+
+    font-size: 37px;
+}
+.para4{
+
+    padding-top: 30px;
+}
+.arrowimage1,.arrowimage2{
+
+    display: none;
+}
+.threeimg{
+
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 120px;
+right: 25px;
+}
+.vertical{
+
+display: flex;
+flex-direction: column;
+font-size: 40px;
+padding-top: 50px;
+}
+
+.flexmain{
+
+display: flex;
+flex-direction: column;
+}
+.flexmain2{
+
+    display: flex;
+    flex-direction: column;
+        
+}
+.fleximage{
+
+    width: 250px;
+align-content: center;  
+    
+}
+.fleximage{
+
+    width: 250px;
+align-content: center;  
+    
+}
+}
